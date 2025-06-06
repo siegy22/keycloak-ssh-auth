@@ -17,7 +17,13 @@ When configured in `sshd_config`, this tool allows you to authenticate users usi
 
 ## Installation
 
-### 1. Build the CLI
+### 1. Download
+
+
+Download the current release from the [release page](https://github.com/siegy22/keycloak-ssh-auth/releases).
+
+
+or build it yourself:
 
 ```bash
 go build -o /usr/local/bin/keycloak-ssh-auth .
